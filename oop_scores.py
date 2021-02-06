@@ -13,7 +13,8 @@ class YatzyScoresheet:
         return sum(hand.fives)
     def score_sixes(self, hand):
         return sum(hand.sixes)
-    
+
+
     def _score_set(self, hand, set_size):
         scores = [0]
         for worth, count in hand._sets.items():

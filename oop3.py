@@ -26,7 +26,7 @@ class Book:
 class Bookcase:
     def __init__(self, books=None):
         self.books = books
-
+        
     @classmethod
     def create_bookcase(cls, book_list):
         books = []

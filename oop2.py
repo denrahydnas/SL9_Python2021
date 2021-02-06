@@ -11,7 +11,7 @@ class Weapon(Item):
     def __init__(self, name, description, power):
         super().__init__(name, description)
         self.power = power
-
+        
 class Inventory:
     #initialize list
     def __init__(self):

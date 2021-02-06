@@ -39,7 +39,8 @@ class YatzyHand(Hand):
     @property
     def sixes(self):
         return self._by_value(6)
-    
+
+
     @property
     def _sets(self):
         return {

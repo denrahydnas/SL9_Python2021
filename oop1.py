@@ -11,8 +11,8 @@ class School:
     
     def __str__(self):
         return "{}: {}".format(self.__class__.__name__, self.name)
-
-
+        
+        
 class Student(School):
 
     def __init__(self, name, enrolled=True, **kwargs):
