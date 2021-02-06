@@ -1,3 +1,4 @@
+#classwork dice game, use with oop_hands and oop_scores
 from oop_dice import D6
 
 class Hand(list):

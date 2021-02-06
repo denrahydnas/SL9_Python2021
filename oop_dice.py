@@ -1,3 +1,5 @@
+#classwrok dice game, use with oop_hands and oop_scores
+
 import random
 
 class Die:

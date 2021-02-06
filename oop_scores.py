@@ -1,3 +1,4 @@
+#classwork dice game, use with oop_hands and oop_scores
 import oop_hands
 
 class YatzyScoresheet:
